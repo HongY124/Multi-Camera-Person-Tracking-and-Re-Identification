@@ -1,0 +1,7 @@
+tracker_type: bytetrack
+track_high_thresh: 0.5  # Ha xuong de box co do tin cay trung binh van duoc track
+track_low_thresh: 0.1
+new_track_thresh: 0.6   # Ha xuong de de dang khoi tao ID moi neu bi mat dau
+track_buffer: 500       # Giu bo nho 500 frame (khoang 16s) khi bi che khuat
+match_thresh: 0.85    # Tang nhe de dam bao box khop chinh xac hon
+fuse_score: True
